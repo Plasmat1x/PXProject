@@ -14,13 +14,13 @@ set(THREADS_PREFER_PTHREAD_FLAG TRUE)
 find_package(Threads REQUIRED)
 
 # include dirs
-list(APPEND INCLUDE_DIRS "source")
+list(APPEND INCLUDE_DIRS "src")
 list(APPEND INCLUDE_DIRS "include")
 #list(APPEND SOURCES "dir")
 #...
 
 # source
-list(APPEND SOURCES "source/main.cpp")
+list(APPEND SOURCES "src/main.cpp")
 #list(APPEND SOURCES "dir/src.cpp")
 #...
 
